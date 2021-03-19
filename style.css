@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(0, 0, 0);
+  border-style: groove;
+  max-width: 30vw;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-color: #888888;
+}
+.container {
+  max-width: 30vw;
+  margin: 0 auto;
+  padding: 0px 0px;
+  height: 50vh;
+}
+header {
+  max-width: 30vw;
+  margin: 0 auto;
+  background-color: lime;
+  padding-left: 10px;
+  font-size: 20px;
+  border-radius: 2px;
+  font-family: "Courier New", Courier, monospace;
+}
+.add-task {
+  max-width: 30vw;
+  margin: 0 auto;
+}
+button {
+  float: right;
+  background-color: #201212;
+  border-width: 1px;
+  border-color: rgb(49, 24, 24);
+  outline-color: #888888;
+  color: #888888;
+  font-family: monospace;
+}
+li {
+  max-width: 30vw;
+  padding: 10px;
+  background-color: rgb(36, 32, 32);
+  border-bottom: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 2px;
+  color: #888888;
+}
+#task {
+  width: 80%;
+  outline-color: #888888;
+  border-color: #888888;
+  background-color: rgb(48, 36, 36);
+  border-radius: 4px;
+}
+#task-button {
+  background-color: lime;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 2px;
+  margin-left: 0px;
+  border-color: none;
+  color: black;
+}
+span {
+  padding-left: 10px;
+  font-family: "arial";
+  font-size: 16px;
+}
